@@ -8,3 +8,5 @@ set OPTIONS=
 call bat\Packager.bat
 
 echo. 2>bin\Swivel\META-INF\AIR\debug
+
+"C:\Program Files (x86)\NSIS\Bin\makensis.exe" win-installer.nsi
