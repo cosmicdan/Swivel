@@ -2,7 +2,7 @@
 <application xmlns="http://ns.adobe.com/air/application/29.0">
 	
 	<id>com.newgrounds.swivel.Swivel</id>
-	<versionNumber>1.14</versionNumber>
+	<versionNumber>1.15</versionNumber>
 	<filename>Swivel</filename>
 	<architecture>64</architecture>
 	

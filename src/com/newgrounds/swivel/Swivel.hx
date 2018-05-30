@@ -56,7 +56,7 @@ import haxe.io.Bytes;
 import haxe.io.BytesInput;
 import haxe.io.Input;
 
-@:xml("SwivelHuey.xml") @:version("1.14")
+@:xml("SwivelHuey.xml") @:version("1.15")
 class Swivel extends Application
 {
 	@bindable private var _controller : SwivelController;
