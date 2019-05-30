@@ -798,11 +798,11 @@ class Swivel extends Application
 	}
 	
 	private function qualitySecretHandler(e) {
-		qualitySlider.maximum = 4;
+		if(e.controlKey) qualitySlider.maximum = 4;
 		untyped qualitySlider.mouseMoveHandler(null);
 	}
 	
-	private function qualitySliderFunc(v : Float) return ["Low", "Medium", "High", "x8-Exprmntl", "x16-Exprmntl"][Std.int(v)];
+	private function qualitySliderFunc(v : Float) return ["Low", "Medium", "High", "Higher", "Highest"][Std.int(v)];
 	
 	private function cancelClickHandler(e) : Void {
 		if(Type.enumConstructor(_controller.currentTask) == "EncodeSwf") {

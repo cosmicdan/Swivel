@@ -23,6 +23,6 @@ enum RenderQuality {
 	Low;
 	Medium;
 	High;
-	x8-Exprmntl;
-	x16-Exprmntl;
+	Higher;
+	Highest;
 }
