@@ -50,7 +50,7 @@ class FfmpegProcess
 				var fast = new haxe.xml.Fast( xml );
 				_ffmpegFolder = File.applicationDirectory.resolvePath( fast.node.ffmpegPath.innerData );
 			} catch (e:Dynamic) {
-				_ffmpegFolder = File.applicationDirectory.resolvePath("ffmpeg/win32");
+				_ffmpegFolder = File.applicationDirectory.resolvePath("ffmpeg/win64");
 			}
 		}
 		_closed = false;
