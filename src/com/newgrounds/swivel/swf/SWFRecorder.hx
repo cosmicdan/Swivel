@@ -275,8 +275,8 @@ class SWFRecorder {
 			case Low:			StageQuality.LOW;
 			case Medium:		StageQuality.MEDIUM;
 			case High:			StageQuality.BEST;
-			case Higher:		StageQuality.HIGH_8X8_LINEAR;
-			case Highest:		StageQuality.HIGH_16X16_LINEAR;
+			case x8-Exprmntl:  StageQuality.HIGH_8X8_LINEAR;
+			case x16-Exprmntl: StageQuality.HIGH_16X16_LINEAR;
 		}
 		// this might need to draw loader instead of _window.stage
 		_frame.drawWithQuality(_window.stage, _drawMatrix, null, null, null, true, quality);
