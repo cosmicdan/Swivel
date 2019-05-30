@@ -12,5 +12,3 @@ echo ######
 call PackageApp.bat
 echo.
 
-:END
-pause
