@@ -1,5 +1,5 @@
 @echo off
-set AIR_SDK=C:\Users\andrew.klaassen\AIRSDK_Compiler-29-beta
+set AIR_SDK=C:\AIR_SDK
 set PAUSE_ERRORS=1
 call bat\SetupSDK.bat
 call bat\SetupApplication.bat
