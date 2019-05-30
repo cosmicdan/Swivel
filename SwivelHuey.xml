@@ -437,7 +437,7 @@
 						
 						<image source="dummybar" x="97" y="372"/>
 						
-						<slider x="438" y="432" minimum="262144" maximum="25165824" step="512" labelX="211" labelY="0" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x425137" labelFunc="videoBitrateLabelFunc" name="videoBitrateSlider" value="4194304">
+						<slider x="438" y="432" minimum="262144" maximum="25165824" step="512" labelX="211" labelY="0" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x425137" labelFunc="videoBitrateLabelFunc" name="videoBitrateSlider" value="15728640">
 							<image source="sliderTrack"/>
 							<nub property="x"><image source="btnSliderNubOver" y="2"/></nub>
 						</slider>
