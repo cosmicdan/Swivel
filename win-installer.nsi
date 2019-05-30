@@ -12,7 +12,7 @@
 
   ;Name and file
   Name "Swivel"
-  OutFile "swivel-win64-1.15.exe"
+  OutFile "swivel-win64-1.16.exe"
 
   ;Default installation folder
   InstallDir "$PROGRAMFILES64\Swivel"
@@ -108,11 +108,11 @@ Section "Swivel" SecSwivel
   WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Swivel" \
                  "HelpLink" "http://www.newgrounds.com"
   WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Swivel" \
-                 "DisplayVersion" "1.15"
+                 "DisplayVersion" "1.16"
   WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Swivel" \
                  "VersionMajor" "1"
   WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Swivel" \
-                 "VersionMinor" "11"
+                 "VersionMinor" "16"
   WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Swivel" \
                  "NoModify" "1"
   WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Swivel" \
