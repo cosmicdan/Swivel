@@ -278,7 +278,7 @@ class Swivel extends Application
 
 	private override function init() : Void {
 		#if !debug
-			if(!_isCmdLine) ui.add(new SplashScreen());
+			#if(!_isCmdLine) ui.add(new SplashScreen());
 		#end
 
 		_previewGenerator = new PreviewGenerator();
